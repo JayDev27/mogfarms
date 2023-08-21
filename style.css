@@ -58,6 +58,13 @@
   color: #ffffff;
   margin-right: 40px;
 }
+
+.navbar .navbar-menu .menu-links#button:hover{
+  background-color: #ffff00;
+  transition: 0.8s ease-in;
+  color: black;
+}
+
 .navbar .navbar-menu .menu-links:hover{
   color: #fff;
 }
@@ -82,6 +89,25 @@
   color: #fff;
 }
 
+p{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
 .hero-btn{
   display: inline-block;
   text-decoration: none;
@@ -96,10 +122,11 @@
 .hero-btn:hover{
   border: 1px solid #ffff00;
   background: #ffff00;
-  transition: 5s;
+  transition: 0.8s;
+  color: black;
 }
 
-.hero-container .container-left h1{
+/* .hero-container .container-left h1{
     font-size: 30px;
     text-decoration: underline;
     color: blue;
@@ -111,4 +138,57 @@
   align-items: center;
   height: 350px;
   width: 350px;
+} */
+
+.facilities{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
 }
+
+.facilities-col{
+  flex-basis: 60%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  margin-left: 32px;
+}
+
+.facilities-col img{
+  width: 60%;
+  border-radius: 10px;
+}
+
+.facilities-col p{
+  padding: 0;
+}
+
+.facilities-col h3{
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.course{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.course-col{
+  margin: 0 20px 0 20px;
+  flex-basis: 23%;
+  background: #ffff00;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.course-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
